@@ -3,13 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import Dashboard from './components/Dashboard'
+
 function App(){
- return (
-  <>
-   <h1>vishwa</h1>
-   <h2>sanjay</h2>
-  </>
- ) 
+    let name="miruthula"
+    let occ="student"
+    return(
+        <Dashboard name={name} occ={occ}></Dashboard>
+    )
 }
 
 export default App
+
+
