@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import DataDisplay from './components/Dashboard.jsx'
 import Dashboard from './components/Dashboard'
 
 function App(){
@@ -14,7 +14,9 @@ function App(){
         console.log(name)
     }
     return(
-        <Dashboard name={name} occ={occ} nameChange={nameChange}></Dashboard>
+        //<Dashboard name={name} occ={occ} nameChange={nameChange}></Dashboard>//
+        <Table/>
+
     )
 }
 
